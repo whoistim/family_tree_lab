@@ -43,7 +43,7 @@ describe Child do
   # For now, to get these tests to pass, have the last line of your 'talking' method be the text you want to display
   # It is beyond the scope of this lab to try to use rspec to test what you 'puts' out so don't worry about that
   describe "Talking" do
-    it "should return a 'Wahhh!' if the child's age is <2 " do
+    it "should return the message 'Wahhh!' if the child's age is <2 " do
 
     end
     it "should return a message and include the favorite color when the age is over 2" do
