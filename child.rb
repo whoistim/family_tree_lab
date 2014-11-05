@@ -1,7 +1,9 @@
 require_relative 'grandparent'
 require_relative 'parent'
 
-class Child
+class Child < Grandparent
+
+
 
 end
 

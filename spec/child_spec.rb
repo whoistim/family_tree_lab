@@ -9,15 +9,19 @@ describe Child do
 
   describe "Initialization" do
     it "is an instance of the Child class" do
-
+      expect(@child).to be_instance_of(Child)
     end
+
     it "is assigned a name" do
-
+      expect(@grandparent.name).to eq("ruby")
     end
+    
     it "is assigned an age" do
+      expect(@child.age).to eq(1)
 
     end
     it "is assigned a gender" do
+      expect(@child.gender).to eq("female")
 
     end
     it "is assigned a favColor" do
